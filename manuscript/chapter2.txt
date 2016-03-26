@@ -126,12 +126,18 @@ We will make a list and assign it to a variable “friends”. This means that �
 Lists are enclosed in square brackets. Each item – each friend – is separated by a comma.
 
 ```python
+
+
 friends = ['Rob', 'Jenny', 'Fred', 'Nirmal', 'Lucia', 'Nazmin', 'Cris']
 ``` 
  
 Now for the random choice:
 
 ```python
+
+
+
+
 display.scroll(random.choice(friends), 200)
 ```
  
