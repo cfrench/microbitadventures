@@ -66,14 +66,22 @@ If you saw an error message, look carefully at your script and correct any typos
  
 ### A Short Pause
 
-Enter the code on line 4.
+Enter this code on the next line:
+
+```
+sleep(1000)
+```
  
 sleep is a function that makes the microbit’s controller chip wait – doing nothing – for the number of milliseconds in the brackets. Programmers call the number in brackets an argument. 
 How long a pause will an argument of 1000 produce?
 
 ### Second Message
 
-Enter the code on line 5:
+Enter this code on the next line:
+
+```
+display.scroll('from planet Earth', 400)
+```
  
 Choose Flash to send your code to the microbit.
 
@@ -101,8 +109,13 @@ Usually we import all the modules at the top of the script.
 
 In the Mu editor, choose New.
 If you see a blank screen, add these lines:
- 
-The first line imports all the functions from the microbit module.
+
+```
+from microbit import *
+import random
+```
+
+ The first line imports all the functions from the microbit module.
 
 The second line imports the random module but not its functions. When we want to use a function from the random module, we have to use the module’s name and the function’s name. You will see this in action shortly.
 
@@ -111,9 +124,16 @@ Next we need a list.
 We will make a list and assign it to a variable “friends”. This means that “friends” is the name for the space in memory where we are saving our list of friends.
 
 Lists are enclosed in square brackets. Each item – each friend – is separated by a comma.
- 
+
+```
+friends = ['Rob', 'Jenny', 'Fred', 'Nirmal', 'Lucia', 'Nazmin', 'Cris']
+``` 
  
 Now for the random choice:
+
+```
+display.scroll(random.choice(friends), 200)
+```
  
 Choose Flash.
 
