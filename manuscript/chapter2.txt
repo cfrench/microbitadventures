@@ -37,6 +37,8 @@ Now jot down another short phrase.
 You will program the microbit to display the first phrase, pause for a couple of seconds, then display the second phrase. That’s a sequence with three steps.
 ## Open the Editor
 Double click the Mu icon on your desktop. The Editor will open.
+
+![](https://raw.githubusercontent.com/cfrench/microbitadventures/9412b3a992af97a065deaaa1c1ca39652ecdd8bd/manuscript/images/chp2/Mu_editor.png)
  
 The first line is an instruction to import all of the commands and functions from the module called microbit. Remember that a module is like a kit of extra parts: the microbit kit has commands and functions for using the LED matrix, the buttons and all the other components you don’t find on a desktop or laptop computer.
 Line 3 is a comment just telling us that we can enter our code below. Comments begin with a hash (not a hashtag, this isn’t Twitter). Computers ignore comments, they are just for us. It’s obvious that we enter code, so go ahead and delete the comment.
