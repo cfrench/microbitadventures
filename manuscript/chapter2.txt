@@ -1,6 +1,6 @@
 ﻿# Your First MicroPython Script
 
-## Learning Objective
+## Learning Objectives
 
 After completing this tutorial, you will be able
  
