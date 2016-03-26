@@ -49,7 +49,7 @@ Line 3 is a comment just telling us that we can enter our code below. Comments b
 
 To display my first phrase I enter code:
 
-```
+```python
 from microbit import *
 
 display.scroll('Hi, Tim', 400)
@@ -68,7 +68,7 @@ If you saw an error message, look carefully at your script and correct any typos
 
 Enter this code on the next line:
 
-```
+```python
 sleep(1000)
 ```
  
@@ -79,7 +79,7 @@ How long a pause will an argument of 1000 produce?
 
 Enter this code on the next line:
 
-```
+```python
 display.scroll('from planet Earth', 400)
 ```
  
@@ -110,7 +110,7 @@ Usually we import all the modules at the top of the script.
 In the Mu editor, choose New.
 If you see a blank screen, add these lines:
 
-```
+```python
 from microbit import *
 import random
 ```
@@ -125,13 +125,13 @@ We will make a list and assign it to a variable “friends”. This means that �
 
 Lists are enclosed in square brackets. Each item – each friend – is separated by a comma.
 
-```
+```python
 friends = ['Rob', 'Jenny', 'Fred', 'Nirmal', 'Lucia', 'Nazmin', 'Cris']
 ``` 
  
 Now for the random choice:
 
-```
+```python
 display.scroll(random.choice(friends), 200)
 ```
  
