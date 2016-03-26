@@ -1,20 +1,34 @@
 ﻿# Your First MicroPython Script
+
 ## Learning Objective
-After completing this tutorial, you will be able 
-*	to explain what a sequence is 
-*	to program a sequence of words or short phrases on the microbit.
+
+After completing this tutorial, you will be able
+ 
+* to explain what a sequence is
+ 
+* to program a sequence of words or short phrases on the microbit.
+
 ##What You Need to Know First
+
 Nothing at all. This is your first script!
+
 If you know a little Python, skip to the next section.
+
 If you have never used Python or you want some reminders, read on.
 Python is a high level language: that just means that it uses words that are like the English language we humans use. But beware – spelling, capitals, order all matter.
-The Python website says that when you download Python for your computer, it comes “with batteries”. That means that you can start using it immediately, not like those toys that need a set of batteries you haven’t got. But, as with a Lego set, you can get extra kits called modules. We will be using a special module for the microbit. 
+
+The Python website says that when you download Python for your computer, it comes “with batteries”. That means that you can start using it immediately, not like those toys that need a set of batteries you haven’t got. But, as with a Lego set, you can get extra kits called modules. We will be using a special module for the microbit.
+ 
 In the world outside school people use Python for many different purposes, including writing games, sifting through websites and data and, believe it or not, dentistry. Google uses Python and if it’s good enough for them, it’s probably good enough for us.
 ## Sequences
+
 A sequence is just a series of statements or commands in order, one after the other.
 Computers are very good at carrying out instructions but they need to be told the order. Computers control our traffic lights. Does order matter? Would you like the lights to go red for the traffic to stop first before they go green for you as a pedestrian? Does the order matter?
+
 If you are making tea for yourself or your parents, does it matter whether you heat the water before you put it in the cup – or the teapot if you are being a little old skool?
+
 ## A Little Planning
+
 Jot down on paper or on your computer two or three words making up a short phrase.
 It’s a tradition that programmers start with “Hello World”. You could say “hello” to your school or your city or your favourite football club or – well, you choose.
 
